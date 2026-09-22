@@ -18,7 +18,7 @@ This project is currently developed as an independent hardware project. I do not
 
 The current architecture is shown below:
 
-`CM5-NAS-MiniITX system architecture` (docs/system-block-diagram.svg)
+![CM5-NAS-MiniITX system architecture](docs/system-block-diagram.svg)
 
 The design is centered around the Raspberry Pi CM5, whose single PCIe lane feeds a **cascaded pair of 4-port PCIe switches**, fanning out into storage, networking, and expansion slots, alongside the CM5's native USB/HDMI/Ethernet interfaces.
 
