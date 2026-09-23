@@ -6,14 +6,6 @@ I am designing a CM5-based Mini-ITX carrier board that combines dual cascaded PC
 
 The goal is to create a flexible CM5 platform that can be used not only as a NAS, but also as a home server, router/firewall, storage server, PTP grandmaster clock/timing appliance, and future FPGA/PCIe expansion platform.
 
-## Project Status
-
-Current status: System architecture and hardware planning
-
-The initial system architecture (block diagram) has been designed. The next steps are schematic design, PCB layout, prototype fabrication, assembly, and hardware validation.
-
-This project is currently developed as an independent hardware project. I do not currently have the resources to fabricate and test the first prototype, so community support would directly help move the project from the design stage to working hardware.
-
 ## System Architecture
 
 The current architecture is shown below:
@@ -76,6 +68,14 @@ The design is centered around the Raspberry Pi CM5, whose single PCIe lane feeds
 9. Mechanical testing
 10. Publish progress updates and validation results (design file release TBD)
 
+## Project Status
+
+Current status: System architecture and hardware planning
+
+The initial system architecture (block diagram) has been designed. The next steps are schematic design, PCB layout, prototype fabrication, assembly, and hardware validation.
+
+This project is currently developed as an independent hardware project. I do not currently have the resources to fabricate and test the first prototype, so community support would directly help move the project from the design stage to working hardware.
+
 ## Why I Need Support
 
 The system architecture and initial hardware design are being developed now, but the major cost is the transition from CAD to physical hardware.
@@ -111,3 +111,5 @@ This project is currently **closed-source**. Schematic and PCB source files (KiC
 Progress updates, block diagrams, renders, and test results will still be shared here as the hardware is developed and validated. Whether and when design files will be released publicly is not yet decided, and will depend on how the project develops.
 
 Donations and sponsorships go directly toward prototype fabrication, components, and validation — they do not currently come with access to design files. If that changes, it will be announced here.
+
+Email: embeddedchan@gmail.com
