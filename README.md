@@ -65,8 +65,8 @@ The design is centered around the Raspberry Pi CM5, whose single PCIe lane feeds
 
 ## Development Plan
 
-1. System architecture
-2. Schematic design
+1. System architecture✅
+2. Schematic design⬅️ **current**
 3. PCB layout
 4. PCB fabrication
 5. Assembly
