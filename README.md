@@ -36,7 +36,7 @@ The design is centered around the Raspberry Pi CM5, whose single PCIe lane feeds
 ### Storage
 - 4x M.2 2280 NVMe slots (via PCIe switch #2)
 - 2x SATA ports (SATA0/SATA1) via a PCIe-to-SATA (2-port) bridge chip off switch #1
-- 2x 2.5-inch drive support (via SATA)
+- 2x 2.5-inch drive mounting points (via SATA)
 
 ### Networking
 - Onboard Gigabit Ethernet (from CM5)
